@@ -1,0 +1,38 @@
+composer require astrotomic/laravel-translatable
+
+composer require dyrynda/laravel-cascade-soft-deletes
+
+composer require grimzy/laravel-mysql-spatial:^5.0
+
+composer require kreait/laravel-firebase
+
+in config/app.php : 
+
+'providers' => [
+        // ...
+        Kreait\Laravel\Firebase\ServiceProvider::class
+    ]
+
+add in .env FIREBASE_CREDENTIALS= .....\\.json
+
+php artisan vendor:publish --provider="Kreait\Laravel\Firebase\ServiceProvider" --tag=config
+
+composer require nwidart/laravel-modules
+
+php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
+
+add in composer file in autoload ==> "Modules\\": "Modules/"
+
+composer dump-autoload
+
+composer require propaganistas/laravel-phone
+
+composer require rolandstarke/laravel-thumbnail
+
+php artisan vendor:publish --tag=thumbnail-config
+
+composer require spatie/data-transfer-object
+
+
+composer require spatie/laravel-query-builder:^3.6
+

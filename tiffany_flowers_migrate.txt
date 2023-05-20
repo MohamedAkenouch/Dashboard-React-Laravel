@@ -1,0 +1,26 @@
+php artisan migrate --path=database/migrations/2022_04_11_115358_create_permission_tables.php
+php artisan migrate --path=database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php
+php artisan migrate --path=database/migrations/2019_08_19_000000_create_failed_jobs_table.php
+
+
+
+php artisan module:migrate Branch
+php artisan module:migrate Category
+php artisan module:migrate Banner
+php artisan module:migrate Message
+php artisan module:migrate PhotoGallery
+php artisan module:migrate User
+php artisan module:migrate Feature
+php artisan module:seed Feature
+php artisan module:migrate Parameter
+php artisan module:seed Parameter
+php artisan module:migrate Product
+php artisan module:migrate PaymentType
+
+
+php artisan module:migrate Notification
+php artisan module:migrate Status
+
+
+
+

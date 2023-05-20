@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tiffanyflowers-8f67b",
+  "private_key_id": "f9af58f0bfe0eced9be8e0f44a03b05f5be6b863",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDnwn8fqzocs6ML\nfP3ALyoFa20xSvLDSUPWRyzoAyjzrXbe/UuC1r4wJKUmXiwuIz2DR1QxMxmKeMX4\nLRV9E/OMHEIvs3+NcYCGPslcVmYDPMSQ20Bi8+8ZYx2cDegswWR/RPqSEpNaIjGy\n5eeOJMy4s8utrBJlsSQHqkEk3LPhb4vb1Q6ujhSEQ2eJYyCHSQOoMsGjs2c3heE/\nrrNElCRXjuupoRCJKs1TP9aWilqwj72dEoqmQuz3oYgszbIqrfI5yOFUSVnjWs4D\ncohfkcxlGGfEGxAcp4NMgfU02078KrJVB7wgKVZz0HraK6UmPwL7tc7lXePtp68S\nCG3u8e4LAgMBAAECggEAILzLK0SLKWnAostNptuisnBJ1Ngy8Z4ETJzyPXXQz5cV\nvwsFox5FcFSE1aYg1IWa11P4kxiWR4am5Fct/WSXlxeYy9ctseOyFYSB+h6kO1nW\npGWsMy4k/K+RC621Obk5wnaSdJbWJLnGznAGZQBSwNZ483fmg2Hh5olIuXXJnRLZ\nTGRo6ybS6IO9kZR39Kba0532nSwXclJ14qRSfWWh6355mxdTPsXFQIsgJcS56a3s\nGnTqF+wtu8yhxhKXn/RcljAh7YYSobe2kM2XIeG3uTRL46ZWcclDcI3s4tuP0c1f\neJLkxi++H/526S2E5PyAIruIWQxZnu8U+Jeilz4gWQKBgQD+Qd2KElmG8nVtmGLf\nafQIFuE766X4gQP7cAT+sdLhyaKEQ0FEqfnnMsE2rt24uMcmzB1lhPivJMGXlfGX\nq+tQ+FTTuBix8Urzi6a8rG93vrJZzU0RlYzyRiggMby9K+E+SXT151EZz00YH0Db\nupQImnd8/UNkA9lT1JsiihJ38wKBgQDpWSfccvQpJraX3Dt8lF7iFgErXz0FO2JF\nPV8X3rqWNz9Ksal/L8k2XjTMik5++a6vHOusI0J6/ktJp58ROuK/fj4x+9Cjv4CS\n9MjTI6VAiM8iYzL7OEIzgaygqCC4vUUeNgLQz5+iyYZOQ0b7EmRq2l+1gu25cCPV\n0m79eHWPiQKBgQD2969jMBO6GsSpYb2YWWhqex7ofyrFyTu+/b48TyoRmzO62UEK\nmzhctFYs8Yn4pbL8IoPjWlfceA17WnBC7QEzsyNiS43hOgmdq2aYGb5kR90hkWNs\n0yEHK9JKA0XbUkYFpIBxYvDJ6yxtY94yEHc+LBwoUjElcv+kh/zwfcEWtQKBgHcs\n6JXHQ/nMYs72VI9Qu5DeSiSblG+an5rbODjZsRPNDY8ZY4aooiwZOwAH1wU0gcm/\njIGy1F46h7sLV8sV9v5z/FHM2Qb4ZDMpv3NOLjTial+WqE/zsKPbo429sFCJocZH\nMXLxxwb9w5Eu/Q53mz+TXfQ29TCTHEo1GihsICZ5AoGABequtf0Decsm8EUzLryP\nbMHppbyGOY/gXZNJbVYEowMAhJRpP0Q7xvbUhr+m5r9LL9fp17/x6BhOexiHZ8TV\npvJLHB+V3QOb0MN9DOqVsYr7iwn84Ec5TzVVumv2GuXFCiCS6QTYynAox2a4w0Mr\nLWNElYfEOqBB4JUxzR3JYC4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-5xs70@tiffanyflowers-8f67b.iam.gserviceaccount.com",
+  "client_id": "105913819467666693067",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-5xs70%40tiffanyflowers-8f67b.iam.gserviceaccount.com"
+}

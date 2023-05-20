@@ -1,0 +1,13 @@
+{
+    "name": "Parameter",
+    "alias": "parameter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Parameter\\Providers\\ParameterServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

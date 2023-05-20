@@ -1,0 +1,16 @@
+{
+    "Category": true,
+    "User": true,
+    "Order": true,
+    "Product": true,
+    "Feature": true,
+    "Parameter": true,
+    "PaymentType": true,
+    "Branch": true,
+    "GalleryPhoto": true,
+    "Message": true,
+    "Notification": true,
+    "Status": true,
+    "Banner": true,
+    "PhotoGallery": true
+}
