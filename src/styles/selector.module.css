@@ -1,0 +1,46 @@
+.selectBox {
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+.selectBox:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+  position: absolute;
+  top: 40%;
+  right: 4px;
+  content: "";
+  z-index: 98;
+}
+.selectBox select {
+  border: 0;
+  position: relative;
+  z-index: 99;
+  background: none;
+}
+.selectBox2 {
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+}
+.selectBox2:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #0388CC;
+  position: absolute;
+  top: 40%;
+  right: 4px;
+  content: "";
+  z-index: 98;
+}
+.selectBox2 select {
+  border: 0;
+  position: relative;
+  z-index: 99;
+  background: none;
+}
