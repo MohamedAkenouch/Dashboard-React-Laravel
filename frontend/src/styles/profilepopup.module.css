@@ -1,0 +1,58 @@
+.sideBtn {
+  position: relative;
+  display: inline-block;
+}
+
+.sideBtn .popup {
+    visibility: hidden;
+    width: 280px;
+    color: #000;
+    text-align: center;
+    border-radius: 10px;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 3;
+    top: 25px;
+    right: -10px;
+  }
+  
+  .sideBtn:hover .popup {
+    visibility: visible;
+  }
+
+  .sideBtn .popup:after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1px 14px rgba(0,0,0,.2);
+  }
+
+  .sideBtn .popup:before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    box-shadow: 0 1px 14px rgba(0,0,0,.2);
+    background: #fff;
+    position: absolute;
+    z-index: 998;
+  }
+
+  .sideBtn .popup.arrowTop:before {
+    right: calc(15px);
+    top: calc(-6px);
+  }
+
+  .popupWrapper {
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 20px;
+    background: #fff;
+    position: relative;
+    z-index: 998;  
+  }

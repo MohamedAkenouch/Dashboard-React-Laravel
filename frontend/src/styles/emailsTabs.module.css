@@ -1,0 +1,42 @@
+.seasonTabs {
+  position: relative;   
+  min-height: 575px; /* This part sucks */
+  clear: both;
+  margin: 25px 0;
+}
+.seasonTab {
+  float: left;  
+  clear: both;
+  width: 29%;
+}
+.seasonTab label {
+    padding-right: 5px;
+    font-size: 21px;
+    vertical-align: middle;
+    position: relative;
+    width: 0.1%;
+    height: 68px;
+    display: table-cell;
+}
+.seasonTab [type=radio] {
+  display: none;   
+}
+.seasonContent {
+  position: absolute;
+  top: 0;
+  left: 29%;
+  background: white;
+  right: 0;
+  width:70%;
+  bottom: 0;
+  border: 1px solid #ccc;
+ }
+
+ .radioInput:checked ~ label div{
+  background: #0388CC;
+  color: white;
+  z-index: 2;
+}
+ .radioInput:checked ~ label ~ .seasonContent {
+  z-index: 1;
+}
